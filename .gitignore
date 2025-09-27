@@ -1,0 +1,74 @@
+# Environment variables (contains API keys)
+.env
+.env.local
+.env.production
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Reports (can be regenerated)
+reports/*.html
+reports/*.csv
+reports/*.json
+
+# Keep reports directory but ignore generated files
+!reports/.gitkeep
+
+# Test results (can be regenerated)
+data/raw_results.jsonl
+data/*_eval.jsonl
+data/*_evaluated.jsonl
+
+# Keep data directory structure
+!data/sample_paper.txt
+!data/test_data.jsonl
+
+# Backup files
+*.bak
+*.backup
+
+# Node modules (if any)
+node_modules/
+
+# Distribution files
+dist/
+build/
+*.egg-info/
