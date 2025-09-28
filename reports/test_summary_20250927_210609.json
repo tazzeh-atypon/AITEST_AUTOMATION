@@ -1,0 +1,24 @@
+{
+  "total_tests": 20,
+  "successful_tests": 20,
+  "failed_tests": 0,
+  "error_tests": 0,
+  "avg_relevancy": 4.25,
+  "avg_adequacy": 4.85,
+  "avg_clarity": 3.45,
+  "avg_confusion": 3.65,
+  "avg_overall": 4.05,
+  "test_types": {
+    "fact": 4,
+    "infer": 4,
+    "not_answerable": 2,
+    "formatting": 4,
+    "history": 6
+  },
+  "response_types": {
+    "answer": 18,
+    "cannot_answer": 2
+  },
+  "timestamp": "2025-09-27T21:06:09.125355",
+  "success_rate": 1.0
+}
